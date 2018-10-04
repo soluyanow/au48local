@@ -1,0 +1,74 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О нас", 
+		"about_us/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Наши услуги", 
+		"services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Наши цены", 
+		".lp_href", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Наши проекты", 
+		"projects/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Статьи", 
+		"articles/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/service/#contacts", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вакансии", 
+		"vacancies/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Заказ запчастей",
+		"sale-spares/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"/service/#reviews", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
