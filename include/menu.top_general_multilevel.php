@@ -13,8 +13,8 @@
 		"USE_EXT" => "N",
 		"DELAY" => "N",
 		"ALLOW_MULTI_SELECT" => "N",
-		"IBLOCK_CATALOG_TYPE" => "aspro_mshop_catalog",
-		"IBLOCK_CATALOG_ID" => "16",
+		"IBLOCK_CATALOG_TYPE" => "1c_catalog",
+		"IBLOCK_CATALOG_ID" => "33",
 		"IBLOCK_CATALOG_DIR" => SITE_DIR."catalog/",
 		"COMPONENT_TEMPLATE" => "top_general_multilevel",
 		"PRICE_CODE" => array(

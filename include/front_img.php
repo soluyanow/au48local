@@ -1,1 +1,1 @@
-<img alt="companypic.png" src="/include/d634e35004ae7f5ca27752156a7f8042.png" title="companypic.png">
+<img alt="companypic.png" src="/upload/medialibrary/cd2/cd2ca684e267c5044e58e402fd11c9c9.png" title="companypic.png">

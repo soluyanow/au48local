@@ -89,140 +89,143 @@ $APPLICATION->SetTitle("Классный интернет-магазин");
 </div>
 <div class="wrapper_inner wides">
 	<?$APPLICATION->IncludeComponent(
-		"aspro:com.banners.mshop",
-		"mshop",
-		array(
-			"IBLOCK_TYPE" => "aspro_mshop_adv",
-			"IBLOCK_ID" => "5",
-			"TYPE_BANNERS_IBLOCK_ID" => "4",
-			"SET_BANNER_TYPE_FROM_THEME" => "N",
-			"NEWS_COUNT" => "6",
-			"SORT_BY1" => "SORT",
-			"SORT_ORDER1" => "ASC",
-			"SORT_BY2" => "ID",
-			"SORT_ORDER2" => "DESC",
-			"PROPERTY_CODE" => array(
-				0 => "TEXT_POSITION",
-				1 => "TARGETS",
-				2 => "TEXTCOLOR",
-				3 => "URL_STRING",
-				4 => "BUTTON1TEXT",
-				5 => "BUTTON1LINK",
-				6 => "BUTTON2TEXT",
-				7 => "BUTTON2LINK",
-				8 => "",
-			),
-			"CHECK_DATES" => "Y",
-			"CACHE_TYPE" => "A",
-			"CACHE_TIME" => "36000000",
-			"SITE_THEME" => $SITE_THEME,
-			"BANNER_TYPE_THEME" => "FLOAT"
+	"aspro:com.banners.mshop", 
+	"mshop", 
+	array(
+		"IBLOCK_TYPE" => "aspro_mshop_adv",
+		"IBLOCK_ID" => "5",
+		"TYPE_BANNERS_IBLOCK_ID" => "4",
+		"SET_BANNER_TYPE_FROM_THEME" => "N",
+		"NEWS_COUNT" => "8",
+		"SORT_BY1" => "SORT",
+		"SORT_ORDER1" => "ASC",
+		"SORT_BY2" => "ID",
+		"SORT_ORDER2" => "DESC",
+		"PROPERTY_CODE" => array(
+			0 => "TEXT_POSITION",
+			1 => "TARGETS",
+			2 => "TEXTCOLOR",
+			3 => "URL_STRING",
+			4 => "BUTTON1TEXT",
+			5 => "BUTTON1LINK",
+			6 => "BUTTON2TEXT",
+			7 => "BUTTON2LINK",
+			8 => "",
 		),
-		false
-	);?>
+		"CHECK_DATES" => "Y",
+		"CACHE_TYPE" => "A",
+		"CACHE_TIME" => "36000000",
+		"SITE_THEME" => $SITE_THEME,
+		"BANNER_TYPE_THEME" => "FLOAT",
+		"COMPONENT_TEMPLATE" => "mshop",
+		"CATALOG" => "/catalog/"
+	),
+	false
+);?>
 </div>
 <div class="grey_bg">
 	<div class="wrapper_inner">
 		<?$APPLICATION->IncludeComponent(
-			"aspro:tabs.mshop",
-			"main",
-			array(
-				"IBLOCK_TYPE" => "aspro_mshop_catalog",
-				"IBLOCK_ID" => "16",
-				"SECTION_ID" => "",
-				"SECTION_CODE" => "",
-				"TABS_CODE" => "HIT",
-				"SECTION_USER_FIELDS" => array(
-					0 => "",
-					1 => "",
-				),
-				"ELEMENT_SORT_FIELD" => "sort",
-				"ELEMENT_SORT_ORDER" => "asc",
-				"ELEMENT_SORT_FIELD2" => "id",
-				"ELEMENT_SORT_ORDER2" => "desc",
-				"FILTER_NAME" => "arrFilterProp",
-				"INCLUDE_SUBSECTIONS" => "Y",
-				"SHOW_ALL_WO_SECTION" => "Y",
-				"HIDE_NOT_AVAILABLE" => "N",
-				"PAGE_ELEMENT_COUNT" => "20",
-				"LINE_ELEMENT_COUNT" => "5",
-				"PROPERTY_CODE" => array(
-					0 => "",
-					1 => "",
-				),
-				"OFFERS_LIMIT" => "10",
-				"SECTION_URL" => "",
-				"DETAIL_URL" => "",
-				"BASKET_URL" => "/basket/",
-				"ACTION_VARIABLE" => "action",
-				"PRODUCT_ID_VARIABLE" => "id",
-				"PRODUCT_QUANTITY_VARIABLE" => "quantity",
-				"PRODUCT_PROPS_VARIABLE" => "prop",
-				"SECTION_ID_VARIABLE" => "SECTION_ID",
-				"AJAX_MODE" => "N",
-				"AJAX_OPTION_JUMP" => "N",
-				"AJAX_OPTION_STYLE" => "Y",
-				"AJAX_OPTION_HISTORY" => "N",
-				"CACHE_TYPE" => "A",
-				"CACHE_TIME" => "250000",
-				"CACHE_GROUPS" => "N",
-				"META_KEYWORDS" => "-",
-				"META_DESCRIPTION" => "-",
-				"BROWSER_TITLE" => "-",
-				"ADD_SECTIONS_CHAIN" => "N",
-				"DISPLAY_COMPARE" => "Y",
-				"SET_TITLE" => "N",
-				"SET_STATUS_404" => "N",
-				"CACHE_FILTER" => "Y",
-				"PRICE_CODE" => array(
-					0 => "BASE",
-				),
-				"USE_PRICE_COUNT" => "N",
-				"SHOW_PRICE_COUNT" => "1",
-				"PRICE_VAT_INCLUDE" => "Y",
-				"PRODUCT_PROPERTIES" => array(
-				),
-				"USE_PRODUCT_QUANTITY" => "N",
-				"CONVERT_CURRENCY" => "N",
-				"DISPLAY_TOP_PAGER" => "N",
-				"DISPLAY_BOTTOM_PAGER" => "N",
-				"PAGER_TITLE" => "Товары",
-				"PAGER_SHOW_ALWAYS" => "N",
-				"PAGER_TEMPLATE" => ".default",
-				"PAGER_DESC_NUMBERING" => "N",
-				"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
-				"PAGER_SHOW_ALL" => "N",
-				"DISCOUNT_PRICE_CODE" => "",
-				"AJAX_OPTION_ADDITIONAL" => "",
-				"SHOW_ADD_FAVORITES" => "Y",
-				"SECTION_NAME_FILTER" => "",
-				"SECTION_SLIDER_FILTER" => "21",
-				"COMPONENT_TEMPLATE" => "main",
-				"OFFERS_FIELD_CODE" => array(
-					0 => "ID",
-					1 => "",
-				),
-				"OFFERS_PROPERTY_CODE" => array(
-					0 => "",
-					1 => "",
-				),
-				"OFFERS_SORT_FIELD" => "sort",
-				"OFFERS_SORT_ORDER" => "asc",
-				"OFFERS_SORT_FIELD2" => "id",
-				"OFFERS_SORT_ORDER2" => "desc",
-				"SHOW_MEASURE" => "Y",
-				"OFFERS_CART_PROPERTIES" => array(
-				),
-				"DISPLAY_WISH_BUTTONS" => "Y",
-				"SHOW_DISCOUNT_PERCENT" => "Y",
-				"SHOW_OLD_PRICE" => "Y"
-			),
-			false
-		);?>
+	"aspro:tabs.mshop", 
+	"main", 
+	array(
+		"IBLOCK_TYPE" => "1c_catalog",
+		"IBLOCK_ID" => "33",
+		"SECTION_ID" => "",
+		"SECTION_CODE" => "",
+		"TABS_CODE" => "SPECIAL_OFFER",
+		"SECTION_USER_FIELDS" => array(
+			0 => "",
+			1 => "",
+		),
+		"ELEMENT_SORT_FIELD" => "sort",
+		"ELEMENT_SORT_ORDER" => "asc",
+		"ELEMENT_SORT_FIELD2" => "id",
+		"ELEMENT_SORT_ORDER2" => "desc",
+		"FILTER_NAME" => "arrFilterProp",
+		"INCLUDE_SUBSECTIONS" => "Y",
+		"SHOW_ALL_WO_SECTION" => "Y",
+		"HIDE_NOT_AVAILABLE" => "N",
+		"PAGE_ELEMENT_COUNT" => "20",
+		"LINE_ELEMENT_COUNT" => "4",
+		"PROPERTY_CODE" => array(
+			0 => "SPECIAL_OFFER",
+			1 => "",
+		),
+		"OFFERS_LIMIT" => "10",
+		"SECTION_URL" => "",
+		"DETAIL_URL" => "",
+		"BASKET_URL" => "/basket/",
+		"ACTION_VARIABLE" => "action",
+		"PRODUCT_ID_VARIABLE" => "id",
+		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
+		"PRODUCT_PROPS_VARIABLE" => "prop",
+		"SECTION_ID_VARIABLE" => "SECTION_ID",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"AJAX_OPTION_HISTORY" => "N",
+		"CACHE_TYPE" => "A",
+		"CACHE_TIME" => "250000",
+		"CACHE_GROUPS" => "N",
+		"META_KEYWORDS" => "-",
+		"META_DESCRIPTION" => "-",
+		"BROWSER_TITLE" => "-",
+		"ADD_SECTIONS_CHAIN" => "N",
+		"DISPLAY_COMPARE" => "Y",
+		"SET_TITLE" => "N",
+		"SET_STATUS_404" => "N",
+		"CACHE_FILTER" => "Y",
+		"PRICE_CODE" => array(
+			0 => "BASE",
+		),
+		"USE_PRICE_COUNT" => "N",
+		"SHOW_PRICE_COUNT" => "1",
+		"PRICE_VAT_INCLUDE" => "Y",
+		"PRODUCT_PROPERTIES" => array(
+		),
+		"USE_PRODUCT_QUANTITY" => "N",
+		"CONVERT_CURRENCY" => "N",
+		"DISPLAY_TOP_PAGER" => "N",
+		"DISPLAY_BOTTOM_PAGER" => "N",
+		"PAGER_TITLE" => "Товары",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"DISCOUNT_PRICE_CODE" => "",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"SHOW_ADD_FAVORITES" => "Y",
+		"SECTION_NAME_FILTER" => "",
+		"SECTION_SLIDER_FILTER" => "21",
+		"COMPONENT_TEMPLATE" => "main",
+		"OFFERS_FIELD_CODE" => array(
+			0 => "ID",
+			1 => "",
+		),
+		"OFFERS_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"OFFERS_SORT_FIELD" => "sort",
+		"OFFERS_SORT_ORDER" => "asc",
+		"OFFERS_SORT_FIELD2" => "id",
+		"OFFERS_SORT_ORDER2" => "desc",
+		"SHOW_MEASURE" => "Y",
+		"OFFERS_CART_PROPERTIES" => "",
+		"DISPLAY_WISH_BUTTONS" => "Y",
+		"SHOW_DISCOUNT_PERCENT" => "Y",
+		"SHOW_OLD_PRICE" => "Y",
+		"SHOW_DISCOUNT_TIME" => "Y"
+	),
+	false
+);?>
 	</div>
 </div>
+
 <div class="wrapper_inner">
-	<?$APPLICATION->IncludeComponent("bitrix:news.list", "brands_slider", array(
+	<?/*$APPLICATION->IncludeComponent("bitrix:news.list", "brands_slider", array(
 		"IBLOCK_TYPE" => "aspro_mshop_content",
 		"IBLOCK_ID" => "11",
 		"NEWS_COUNT" => "9999",
@@ -273,7 +276,7 @@ $APPLICATION->SetTitle("Классный интернет-магазин");
 		"AJAX_OPTION_ADDITIONAL" => ""
 		),
 		false
-	);?>
+	);*/?>
 	<hr class="grey" />
 	<div class="wrap_md">
 		<div class="news_wrap">
@@ -526,6 +529,7 @@ $APPLICATION->SetTitle("Классный интернет-магазин");
 		</div>
 	</div>
 </div>
+
 <div class="wrapper_inner">
 	<?$APPLICATION->IncludeComponent("bitrix:main.include", ".default",
 		array(

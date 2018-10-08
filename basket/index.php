@@ -4,7 +4,7 @@ $APPLICATION->SetTitle("Корзина");
 ?>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:sale.basket.basket", 
-	"", 
+	"main", 
 	array(
 		"COLUMNS_LIST" => array(
 			0 => "NAME",
@@ -18,8 +18,8 @@ $APPLICATION->SetTitle("Корзина");
 			8 => "SUM",
 		),
 		"OFFERS_PROPS" => array(
-			0 => "SIZES",
-			1 => "COLOR_REF",
+			0 => "COLOR_REF",
+			1 => "SIZES",
 		),
 		"PATH_TO_ORDER" => SITE_DIR."order/",
 		"HIDE_COUPON" => "N",
@@ -51,7 +51,24 @@ $APPLICATION->SetTitle("Корзина");
 		"GIFTS_MESS_BTN_DETAIL" => "Подробнее",
 		"GIFTS_PAGE_ELEMENT_COUNT" => "20",
 		"GIFTS_CONVERT_CURRENCY" => "Y",
-		"GIFTS_HIDE_NOT_AVAILABLE" => "N"
+		"GIFTS_HIDE_NOT_AVAILABLE" => "N",
+		"COLUMNS_LIST_EXT" => array(
+			0 => "PREVIEW_PICTURE",
+			1 => "DISCOUNT",
+			2 => "DELETE",
+			3 => "DELAY",
+			4 => "TYPE",
+			5 => "SUM",
+		),
+		"CORRECT_RATIO" => "Y",
+		"AUTO_CALCULATION" => "Y",
+		"COMPATIBLE_MODE" => "Y",
+		"ADDITIONAL_PICT_PROP_2" => "-",
+		"ADDITIONAL_PICT_PROP_3" => "-",
+		"ADDITIONAL_PICT_PROP_16" => "-",
+		"ADDITIONAL_PICT_PROP_17" => "-",
+		"ADDITIONAL_PICT_PROP_33" => "-",
+		"BASKET_IMAGES_SCALING" => "adaptive"
 	),
 	false
 );?>

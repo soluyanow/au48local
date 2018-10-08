@@ -1,6 +1,6 @@
 <?
 $aMenuLinks = Array(
-	Array(
+	/*Array(
 		"Статьи", 
 		"/info/articles/", 
 		Array(), 
@@ -20,6 +20,6 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
-	),
+	),*/
 );
 ?>

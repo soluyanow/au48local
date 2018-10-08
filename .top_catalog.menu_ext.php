@@ -4,8 +4,8 @@
 	$aMenuLinksExt = $APPLICATION->IncludeComponent(
 		"bitrix:menu.sections", "",
 		Array(
-			"IBLOCK_TYPE" => "aspro_mshop_catalog", 
-			"IBLOCK_ID" => "16", 
+			"IBLOCK_TYPE" => "1c_catalog",
+			"IBLOCK_ID" => "33",
 			"DEPTH_LEVEL" => "3", 
 			"CACHE_TYPE" => "A", 
 			"CACHE_TIME" => "3600",

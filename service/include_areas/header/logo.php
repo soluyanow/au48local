@@ -1,1 +1,1 @@
-<img src="<?=SITE_DIR?>include_areas/header/logo.png" alt="Логотип" />
+<img src="<?=SITE_DIR?>include_areas/template/logo.png" alt="Автотехцентр на пятнадцатом" />
