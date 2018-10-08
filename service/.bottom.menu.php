@@ -21,7 +21,7 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-	Array(
+	/*Array(
 		"Наши проекты", 
 		"projects/", 
 		Array(), 
@@ -34,7 +34,7 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
-	),
+	),*/
 	Array(
 		"Новости", 
 		"news/", 
@@ -49,7 +49,7 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-	Array(
+	/*Array(
 		"Вакансии", 
 		"vacancies/", 
 		Array(), 
@@ -69,6 +69,6 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
-	)
+	)*/
 );
 ?>

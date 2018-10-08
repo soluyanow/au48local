@@ -21,13 +21,13 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-	Array(
+	/*Array(
 		"Проекты", 
 		"projects/", 
 		Array(), 
 		Array(), 
 		"" 
-	),
+	),*/
 	Array(
 		"Контакты", 
 		"/service/#contacts", 
