@@ -28,7 +28,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/style_change.css", true);
 		<?$APPLICATION->IncludeFile(SITE_DIR."include_areas/about/about.php", Array(), Array("MODE" => "html","NAME" => "О компании"));?>
 	</div>
 	
-	<?$APPLICATION->IncludeComponent(
+	<?/*$APPLICATION->IncludeComponent(
 		"bitrix:news.list", 
 		"employees", 
 		array(
@@ -163,7 +163,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/style_change.css", true);
 		)
 	),
 	false
-);?>
+);*/?>
 </div>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

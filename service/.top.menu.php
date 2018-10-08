@@ -35,13 +35,13 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-	Array(
+	/*Array(
 		"Статьи", 
 		"articles/", 
 		Array(), 
 		Array(), 
 		"" 
-	),
+	),*/
 	Array(
 		"Новости", 
 		"news/", 
@@ -49,7 +49,7 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-	Array(
+	/*Array(
 		"Заказ запчастей", 
 		"sale-spares/", 
 		Array(), 
@@ -69,6 +69,6 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
-	),
+	),*/
 );
 ?>

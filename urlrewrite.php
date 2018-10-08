@@ -40,14 +40,6 @@ $arUrlRewrite=array (
     'PATH' => '/desktop_app/router.php',
     'SORT' => 100,
   ),
-  24 => 
-  array (
-    'CONDITION' => '#^/service/articles/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/service/articles/index.php',
-    'SORT' => 100,
-  ),
   0 => 
   array (
     'CONDITION' => '#^/stssync/calendar/#',
@@ -62,6 +54,14 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => 'bitrix:catalog',
     'PATH' => '/service/projects/index.php',
+    'SORT' => 100,
+  ),
+  24 => 
+  array (
+    'CONDITION' => '#^/service/articles/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/service/articles/index.php',
     'SORT' => 100,
   ),
   12 => 
@@ -88,14 +88,6 @@ $arUrlRewrite=array (
     'PATH' => '/info/articles/index.php',
     'SORT' => 100,
   ),
-  23 => 
-  array (
-    'CONDITION' => '#^/service/news/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/service/news/index.php',
-    'SORT' => 100,
-  ),
   15 => 
   array (
     'CONDITION' => '#^/info/article/#',
@@ -110,6 +102,14 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/company/news/index.php',
+    'SORT' => 100,
+  ),
+  23 => 
+  array (
+    'CONDITION' => '#^/service/news/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/service/news/index.php',
     'SORT' => 100,
   ),
   16 => 
@@ -128,6 +128,14 @@ $arUrlRewrite=array (
     'PATH' => '/info/brand/index.php',
     'SORT' => 100,
   ),
+  19 => 
+  array (
+    'CONDITION' => '#^/services/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/services/index.php',
+    'SORT' => 100,
+  ),
   8 => 
   array (
     'CONDITION' => '#^/personal/#',
@@ -142,14 +150,6 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => 'bitrix:catalog',
     'PATH' => '/products/index.php',
-    'SORT' => 100,
-  ),
-  19 => 
-  array (
-    'CONDITION' => '#^/services/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/services/index.php',
     'SORT' => 100,
   ),
   25 => 
